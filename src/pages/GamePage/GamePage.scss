@@ -1,0 +1,39 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  &__list {
+    display: flex;
+    margin-top: 200px;
+    width: 100%;
+    height: 100%;
+  }
+  &__cell {
+    list-style: none;
+    margin: 0 10px;
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    &--yoda {
+      background-color: red;
+    }
+  }
+  &__dashboard {
+    display: flex;
+  }
+  &__cupboard-container {
+    align-items: center;
+  }
+  &__cupboard-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background: blue;
+    margin: 10px 0;
+    list-style: none;
+    color: white;
+  }
+}
